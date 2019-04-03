@@ -11,7 +11,10 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400
   border-style: solid;
   border-width: 0 1px $width 1px;
 }
-
+// Page   =====================================================================
+body {
+  background-color: $gray-100;
+}
 // Navbar ======================================================================
 
 .navbar {
@@ -437,7 +440,11 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400
 }
 
 // Progress bars ===============================================================
+.progress {
 
+  background-color: #DFDFDF;
+
+}
 // Containers ==================================================================
 
 a.list-group-item {
